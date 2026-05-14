@@ -364,6 +364,7 @@ void eepromtool(char *ifname, int slave, int mode, char *fname)
       ec_close();
    }
    else
+   
       printf("No socket connection on %s\nExcecute as root\n",ifname);
 }   
 

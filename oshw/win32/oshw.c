@@ -130,6 +130,7 @@ ec_adaptert * oshw_find_adapters (void)
 void oshw_free_adapters (ec_adaptert * adapter)
 {
    ec_adaptert * next_adapter;
+   
    /* Iterate the linked list and free all elemnts holding
     * adapter information
     */ 
